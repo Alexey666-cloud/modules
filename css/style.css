@@ -170,22 +170,21 @@ a {
   }
 
   .conteiner2 {
-    width: 1920px;
+    width: 1180px;
     margin: 0 auto;       
   }
 
   .head_name { 
-    margin-left: 115px;   
-    width: 152px;
-    font-family: "Graphik", sans-serif;
+    margin-bottom: 50px;
+    margin-left: 630px;
+    font-family: "Graphik";
     font-size: 40px;
     color: #222020;
   }
 
-  .link-back2 {    
-    margin-top: 56px;
-    margin-left: 110px;
-    padding-left: 36px;
+  .link-back2 { 
+    padding-left: 30px;   
+    margin-left: 635px; 
     background-image: url("../img/return.png");
     background-size: 19px;
     text-decoration: none;
@@ -295,14 +294,18 @@ a {
     margin-left: 16px;
     font-size: 16px;
     line-height: 38px;
+    list-style-type: none;
   }
 
   .text-card2 {
     margin-left: 16px;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 35px;
   }
 
+  .liststyle {
+    list-style-type: none;
+  }
 
   .parent {      
     width: 1170px;
@@ -310,13 +313,13 @@ a {
 }
 
 .btn {
+  margin-top: 150px;
+  margin-right: 153px;
+  margin-bottom: 815px;
   text-align: center;
 }
 
 .btn-centr {
-  margin-top: 150px;
-  margin-right: 153px;
-  margin-bottom: 815px;    
   padding-left: 80px;
   padding-top: 25px;
   padding-right: 80px;
@@ -331,7 +334,8 @@ a {
 }
 
 .background {
-  background-image: url(../img/Фигура\ 1.png);
+  padding-bottom: 50px;
+  background-image: url(../img/figure1.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto; 
